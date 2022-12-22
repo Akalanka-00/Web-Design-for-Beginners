@@ -1,0 +1,188 @@
+body{
+    background-color: rgb(6, 24, 64);
+
+}
+.navbar{
+    background-color: rgb(6, 24, 64);
+    padding: 10px;
+}
+l{
+    list-style-type: none;
+    
+    
+}
+
+ul li{
+    display: inline;
+    padding: 10px;
+    
+
+}
+
+ul li a{
+    direction: none;
+    color: #fff;
+}
+
+.home{
+    background:url("./assets/pic1.jpg") no-repeat;
+    background-attachment: fixed;
+	background-size: cover;
+    height: 100vh;
+}
+
+.about{
+    margin: 80px;
+}
+
+.box{
+    background-color: rgb(60, 241, 0);
+    height: 300px;
+    width: 300px;
+    margin-left: 500px;
+}
+
+.box:hover{
+    transform: rotate(45deg);
+    transition: 1s;
+}
+
+
+table{
+    margin-left: 200px;
+    font-size: 30px;
+    margin-bottom: 30px;
+}
+
+th{
+    color: rgb(60, 241, 0);
+    font-weight: 600;
+}
+
+td{
+    padding: 10px;
+    padding-right: 30px;
+    color: #fff;
+    align-items: center;
+}
+.card-list{
+    margin-left: 100px;
+    
+}
+.card{
+    padding: 10px;
+    display: inline;
+}
+img{
+    height: 300px;
+    width: 300px;
+}
+
+.contact{
+    padding: 20px;
+    margin-left: 100px;
+}
+
+h1{
+    color: #fff;
+    font-size: 30px;
+    padding-left: 30px;
+}
+
+form{
+    padding-left: 40px;
+}
+
+input{
+    padding: 10px;
+    width: 300px;
+}
+button{
+    color:  rgb(60, 241, 0);
+    padding: 10px;
+    width: 100px;
+    background-color: rgb(6, 24, 64);
+    border-color: rgb(60, 241, 0)
+}
+
+
+
+
+@media only screen and (max-width:600px) {
+
+    .home{
+        width: max-width;
+        margin-left: 0;
+    }
+
+    .about{
+        margin: 30px;
+        margin-left: 0;
+
+    }
+
+    .box{
+        height: 100px;
+        width: 100px;
+        margin-left: 200px;
+    }
+
+    
+table{
+    margin-left: 100px;
+    font-size: 20px;
+    margin-bottom: 30px;
+}
+
+th{
+    color: rgb(60, 241, 0);
+    font-weight: 300;
+}
+
+td{
+    padding: 10px;
+    padding-right: 30px;
+    color: #fff;
+    align-items: center;
+}
+
+.card-list{
+    margin-left: 50px;
+    margin-bottom: 100px;
+    
+}
+.card{
+    padding: 10px;
+    display:flex;
+}
+img{
+    margin-left: 60px;
+    height: 250px;
+    width: 250px;
+}
+
+.contact{
+    padding: 10px;
+    margin-left: 10px;
+}
+
+h1{
+    font-size: 25px;
+    padding-left: 20px;
+}
+
+form{
+    padding-left: 25px;
+}
+
+input{
+    padding: 10px;
+    width: 200px;
+    margin-right: 10px;
+}
+button{
+    padding: 10px;
+    width: 100px;
+}
+
+}
